@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/Image';
+import Image from "next/image"
 
 function LargeCard({img, title, description, buttonText}) {
   return (
@@ -9,7 +9,7 @@ function LargeCard({img, title, description, buttonText}) {
     className="rounded-2xl"
     src={img}
     layout="fill"
-  
+
     />
     </div>
     <div className="absolute top-32 left-12">
